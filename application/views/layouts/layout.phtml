@@ -1,0 +1,47 @@
+<?php echo $this->doctype().PHP_EOL ?>
+<html lang="fr">
+    <head>
+        <!-- Meta -->
+        <?php 	$this->headTitle()->setSeparator(' - ');
+        	 	$this->headTitle('Mon site');
+       			echo  $this->headTitle();
+       			
+       			$this->headLink()->appendStylesheet('/css/reset.css','all');
+       			$this->headLink()->appendStylesheet('/css/style.css','all');
+       			$this->headLink()->appendStylesheet('/css/font.css','all');
+       			$this->headLink()->appendStylesheet('/css/less.css','all');
+       			$this->headLink()->appendStylesheet('/css/10cols.css','all');
+       			$this->headLink()->appendStylesheet('/css/3cols.css','all');
+       			$this->headLink()->appendStylesheet('/css/5cols.css','all');
+       			$this->headLink()->appendStylesheet('/css/8cols.css','all');
+       			echo $this->headLink() . PHP_EOL;
+       			
+       			$this->headScript()->appendFile('/js/less-grid-4.js','text/javascript');
+       			$this->headScript()->appendFile("http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js","text/javascript");
+       			echo $this->headScript(). PHP_EOL;
+       			
+       			
+       			$this->headMeta()->setHttpEquiv('content-type','text/html');
+       			echo $this->headMeta(). PHP_EOL;
+       			?>
+        <meta charset="utf-8" />
+        
+    </head>
+
+    <body>
+    <header>App5.  IP FORMATION</header>
+    <nav id="topNav">
+        <ul>
+        	<li><a href="/index.php">Index</a></li>
+        	<li><a href="/contact.php">Contact</a></li>
+       	</ul>
+    </nav>
+    <div id="page">
+		<?php echo $this->layout()->content; ?>
+	</div>
+	<footer>
+        <p>Application PHP 5</p>
+     </footer>
+    </body>
+
+</html>

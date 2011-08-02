@@ -1,0 +1,4 @@
+[Tue Aug 02 09:27:52 2011] [error] [client 192.168.11.221] PHP Fatal error:  Call to a member function appendstylesheet() on a non-object in /home/dev/app8/application/views/layouts/layout.phtml on line 9
+[Tue Aug 02 10:35:34 2011] [error] [client 192.168.11.221] PHP Parse error:  syntax error, unexpected ';' in /home/dev/app8/application/views/scripts/index/index.phtml on line 16, referer: http://app8.patricia.ip-formation.local/contact.php
+[Tue Aug 02 11:15:32 2011] [error] [client 192.168.11.221] PHP Fatal error:  Call to a member function getMessage() on a non-object in /home/dev/app8/application/controllers/ErrorController.php on line 10, referer: http://app8.patricia.ip-formation.local/contact.php
+[Tue Aug 02 11:16:25 2011] [error] [client 192.168.11.221] PHP Fatal error:  Call to a member function getMessage() on a non-object in /home/dev/app8/application/controllers/ErrorController.php on line 10, referer: http://app8.patricia.ip-formation.local/contact.php
